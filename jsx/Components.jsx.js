@@ -1,6 +1,6 @@
 var Reflux = require("reflux");
 var React = require("react");
-var ReactDOM = require("react/lib/ReactDom");
+var ReactDOM = require("react-dom"); //require("react/lib/ReactDom");
 var Actions = require("./Actions.js");
 var Store = require("./Store.js");
 var CommentActions = Actions.CommentActions;

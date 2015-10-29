@@ -8,8 +8,9 @@
   "author": "krix",
   "license": "MIT",
   "dependencies": {
-    "reflux": "~0.2.4",
-    "react": "~0.14.0",
+    "reflux": "0.3.0",
+    "react": "0.14.1",
+    "react-dom": "0.14.1",
     "jquery": "2.1.4",
     "bootstrap": "3.3.5"
   },
