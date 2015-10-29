@@ -1,6 +1,8 @@
 # RefluxSimpleApp
 Very Simple React + Reflux application
 
+<hr>
+
 ## Necessary tools
 Following npm tools are required for build:
 ```
