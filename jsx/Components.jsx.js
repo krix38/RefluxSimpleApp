@@ -1,6 +1,6 @@
 var Reflux = require("reflux");
 var React = require("react");
-var ReactDOM = require("react-dom"); //require("react/lib/ReactDom");
+var ReactDOM = require("react-dom");
 var Actions = require("./Actions.js");
 var Store = require("./Store.js");
 var CommentActions = Actions.CommentActions;
@@ -12,6 +12,8 @@ var CommentInput = React.createClass({
     var text = this.refs.textInput.value;
     if(author != "" && text != ""){
       CommentActions.addComment({id: CommentStore.commentCount+1, author: author, text: text})
+      this.refs.authorInput.value = "";
+      this.refs.textInput.value = "";
     }
   },
   render: function(){
